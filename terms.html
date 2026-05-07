@@ -7,12 +7,14 @@
   body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #222; }
   h1 { border-bottom: 1px solid #ccc; padding-bottom: 0.3rem; }
   h2 { margin-top: 1.8rem; }
+  .highlight { background: #f5f5f5; border-left: 4px solid #333; padding: 0.75rem 1rem; margin: 1rem 0; font-family: monospace; font-size: 0.95rem; }
+  .notice { background: #eef4ff; border: 1px solid #bcd; border-radius: 4px; padding: 0.75rem 1rem; margin: 1rem 0; }
 </style>
 </head>
 <body>
 
 <h1>SMS Terms and Conditions</h1>
-<p><strong>Last updated:</strong> May 4, 2026</p>
+<p><strong>Last updated:</strong> May 7, 2026</p>
 
 <h2>Program Name</h2>
 <p><strong>Jarvis</strong> — a personal AI assistant SMS service.</p>
@@ -20,23 +22,33 @@
 <h2>Program Description</h2>
 <p>Jarvis is a personal-use messaging application operated by an individual sole proprietor. The sole recipient of all messages is the account owner. No third parties are messaged through this program. Messages consist of personal notifications, reminders, and assistant-style responses to inputs from the account owner.</p>
 
+<h2>How to Opt In</h2>
+<p>The account owner opts in to receive messages by texting <strong>START</strong> to the Jarvis phone number. Opt-in consent was also established when the account owner registered the Twilio account, configured the Jarvis application, and verified their mobile number as the sole recipient during the sole proprietor brand registration process.</p>
+<p>Upon opting in, the following confirmation message is sent:</p>
+<div class="highlight">Jarvis: You are subscribed to receive personal assistant messages. Msg frequency varies. Msg &amp; Data Rates May Apply. Reply STOP to unsubscribe, HELP for help.</div>
+
+<h2>Opt-In Keywords</h2>
+<p>Texting <strong>START</strong> to the Jarvis number enrolls the account owner to receive messages.</p>
+
 <h2>Message Frequency</h2>
 <p>Message frequency varies based on the account owner's interaction with the application.</p>
 
 <h2>Message and Data Rates</h2>
-<p>Standard message and data rates may apply, as determined by the recipient's mobile carrier.</p>
+<p><strong>Msg &amp; Data Rates May Apply.</strong> Standard message and data rates may apply, as determined by the recipient's mobile carrier.</p>
 
-<h2>Opt-In</h2>
-<p>The account owner has provided opt-in consent by registering this Twilio account, configuring the Jarvis application, and using their own verified mobile number as the sole recipient.</p>
-
-<h2>Opt-Out</h2>
-<p>To stop receiving messages at any time, reply <strong>STOP</strong> to any message from this number. After replying STOP, you will receive a final confirmation message and no further messages will be sent.</p>
+<h2>How to Opt Out</h2>
+<p>To stop receiving messages at any time, reply <strong>STOP</strong> to any message from this number. After replying STOP, the following confirmation message is sent and no further messages will be sent:</p>
+<div class="highlight">You have successfully been unsubscribed. You will not receive any more messages from this number. Reply START to resubscribe.</div>
+<p>Opt-out keywords: STOP, STOPALL, UNSUBSCRIBE, CANCEL, END, QUIT, REVOKE, OPTOUT.</p>
 
 <h2>Help</h2>
-<p>For assistance, reply <strong>HELP</strong> to any message from this number, or contact <strong>yoshieditsproduction@gmail.com</strong>.</p>
+<p>For assistance, reply <strong>HELP</strong> to any message from this number. The following response will be sent:</p>
+<div class="highlight">Reply STOP to unsubscribe. Msg &amp; Data Rates May Apply.</div>
+<p>You may also contact: <strong>yoshieditsproduction@gmail.com</strong></p>
 
 <h2>Privacy</h2>
-<p>See the <a href="privacy.html">Privacy Policy</a> for information about how data is handled. Mobile opt-in data and consent are not shared with third parties or affiliates for marketing purposes.</p>
+<div class="notice">Mobile opt-in data and consent are not shared with third parties or affiliates for marketing purposes.</div>
+<p>See the <a href="privacy.html">Privacy Policy</a> for full details on how data is handled.</p>
 
 <h2>Carriers</h2>
 <p>Carriers are not liable for delayed or undelivered messages.</p>
